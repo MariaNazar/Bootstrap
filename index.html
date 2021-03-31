@@ -2,268 +2,272 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <style>
-        .tm-social {
-            width: 50px;
-            height: 50px;
-
+  <title>AbaCat</title>
+  <style>
+    .tm-social {
+      width: 50px;
+      height: 50px;
+    }
+    html {
+          scroll-behavior: smooth;
+          
         }
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+    .naBar{
+        background-color: darkgreen;
+        width: 100%;
+    
+    }    
 
-    <title>FloresParaTu</title>
+   
+    
+    
+    
+   
+  </style>
+  
 </head>
 
-<body>
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darksalmon;" id="menu">
-        <img src="img/icon.png" width="40" height="40" alt="Logo da página">
-        <a class="navbar-brand ml-2" href="#" style="font-style: italic;">Flores para Tu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#menu" >Home <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#sobreFlores" >Sobre flores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#contato">Contato</a>
-                </li>
-                <li class="nav-item dropdown mx-auto">
-                    <a class="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Flores
-                    </a>
-                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#produtos">Vinhos tintos</a>
-                        <a class="dropdown-item" href="#produtos">Vinhos brancos</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#produtos">Outros</a>
-                    </div>
-                </li>
-            </ul>
-         
-            </ul>
-        </div>
+<body style="background-color: rgb(82, 167, 65);">
+  <!-- NavBar -->
+  
+  <nav class="navbar navbar-expand-lg  navbar-dark naBar">
+    <nav class="navbar navbar">
+        <img src="img/EgxdBMoXsAAsxt8-removebg-preview.png" width="50px" height="50px" alt="" >
+      <span class="navbar-brand mb-0 h1">AbaCat</span>
     </nav>
-    <!-- /Menu -->
-
-    <!-- Carousel -->
-    <div id="carouselFloresgif" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselFloresgif" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselFloresgif" data-slide-to="1"></li>
-            <li data-target="#carouselFloresgif" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/flowergif1.gif" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/flowergif2.gif" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/flowergif3.gif" alt="Terceiro Slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselFloresgif" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselFloresgif" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end sticky-top" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link p-2" href="#sobre">Sobre <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="#receitas">Receitas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="#video">Vídeo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link p-2" href="#campoFormulario">Fale conosco</a>
+          </li>
+    </ul>
     </div>
-    <!-- /Carousel -->
-
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid text-secondary">
-        <div class="container">
-            <h1 class="display-4">As flores e o motivo de sempre tê-las por perto.</h1>
-            <p class="lead">Além de sua beleza e aroma, as flores são uma estrutura exclusiva das angiospermas. Elas podem ser definidas como ramos altamente modificados que apresentam como função garantir a reprodução do vegetal. Produzindo os gametas também, as flores têm estruturas que garantem a atração de polinizadores. Pétalas coloridas e a presença de néctar, por exemplo, fazem com que determinadas espécies de animais visitem-nas e garantem a polinização cruzada.</p>
-        </div>
+    <div class="justify-content-end">
+      <ul class="navbar-nav">
+        
+      </ul>
     </div>
-    <!-- /Jumbotron -->
-
-    <!-- Cards -->
-    <div class="container" id="produtos">
-        <div class="row">
-            <div class="card-group mb-5 ">
-                <div class="card w-100 mr-2">
-                    <img class="card-img-top" height="524" src="assets/img/vinho-branco 1.jpg"
-                        alt="Imagem de vinho branco">
-                    <div class="card-body">
-                        <h5 class="card-title">Balacio de Menado</h5>
-                        <p class="card-text">Chardonnay, a rainha das uvas brancas, também é a realeza do vinho branco
-                            da linha La Grupa. Se você está à procura de leveza, equilíbrio e muito frescor, com certeza
-                            essa é a pedida certa pra você! Aromático e saboroso, harmoniza muito bem com a culinária
-                            vegetariana ou um rodízio de sushi com os amigos.</p>
-                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" height="524" src="assets/img/vinho-branco 2.jpg"
-                        alt="Imagem de vinho branco">
-                    <div class="card-body">
-                        <h5 class="card-title">Vinapena blanco</h5>
-                        <p class="card-text">J. García Carrión, a vinícola número 1 da Europa, com mais de 120 anos de
-                            história, nos traz vinho branco refrescante e frutado, com sabores de frutas cítricas e
-                            damasco. Elaborada à base de frutos de Airén, esta versão do best seller Viñapeña é ideal
-                            para um momento de descontração ao final do dia.</p>
-                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                    </div>
-                </div>
-                <div class="card w-100 ml-2">
-                    <img class="card-img-top" height="524" src="assets/img/vinho-tinto 3.jpg"
-                        alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Trio Roncalla Tradizione</h5>
-                        <p class="card-text">Nas palavras do enólogo Piergiorgio Castellani: “o nosso objetivo e
-                            aspiração é o que sempre foi: criar vinhos memoráveis”. Honrando esse objetivo, nasce este
-                            Chianti, que não só entrega toda a filosofia da centenária vinícola, como também é um dos
-                            grandes símbolos da Toscana. Um brinde!.</p>
-                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Cards -->
-
-    <!-- Texto e vídeo -->
-    <div class="container" id="sobreFlores">
-        <div class="row mb-5">
-            <div class="col-md-6 justify-content-around text-justify bg-light">
-                <h3 class="text-danger">The Union Winery</h3>
-                <hr>
-                <h6 class="text-warning">Entenda mais sobre a The Union Winery: </h6>
-                <p> 
-                    Primeiramente, você sabe da onde vem os vinhos?
-                    Vinho é, genericamente, uma bebida alcoólica produzida por fermentação do sumo de uva. Na União
-                    Europeia, o vinho é legalmente definido como o produto obtido exclusivamente por fermentação parcial
-                    ou total de uvas frescas, inteiras ou esmagadas, ou de mostos 
-                </p>
-                <p>
-                    A The Union Winery trabalha com os melhores produtos selecionados para melhor atendê-los. Fernanda,
-                    nossa consultora, esclarece todas as suas possíveis dúvidas sobre vinhos. Assista o vídeo ao lado e
-                    confira!
-                </p>
-            </div>
-
-            <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uvWL6_A7uQc" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen class="w-100"></iframe>
-            </div>
-
-        </div>
-    </div>
-    <!-- /Texto e vídeo -->
-
-    <!-- Formulário de contato -->
-    <div class="container" id="contato">
-        <div class="row mb-5 w-100">
-            <div class="col-md-12">
-                <h4 class=" text-center">Entre em contato com a gente</h4>
-            </div>
-        </div>
-
-        <div class="row d-flex align-items-center w-100">
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Endereço de email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nome@exemplo.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Qual opção você deseja?</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Insira sua opção</option>
-                            <option>Vendas</option>
-                            <option>Opção de pagamento</option>
-                            <option>Opções de entrega</option>
-                            <option>Produtos</option>
-                            <option>Outros</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Digite sua dúvida</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-
-                    <div class="form-group d-flex justify-content-end">
-                        <button class="btn btn-outline-danger">Enviar</button>
-                    </div>
-                </form>
-            </div>
-
-            <div class="col-md-6">
-                <iframe class="w-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23978.15314958487!2d-75.94675176044922!3d41.30300820000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c51658fe46a7fb%3A0x35d283ab03ed182!2sMerch%20by%20Cory%E2%80%99s%20Kava%20Korner!5e0!3m2!1spt-BR!2sbr!4v1615572022772!5m2!1spt-BR!2sbr"
-                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </div>
-    <!-- /Formulário de contato -->
-
-    <!-- Rodapé -->
+  </nav>
     
-    <footer class="page-footer bg-danger pt-4 mt-5">
-        <div class="container">
-            <div class="row mb-2">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <a href="https://github.com/Carolguida" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/github.png" alt="Logo do Github">
-                    </a>
+  <!-- /NavBar-->
 
-                    <a href="https://www.instagram.com/guidacar0l/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
-                    </a>
+   <!-- Carosel -->
+   <div id="carouselLp" class="carousel slide container" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselLp w-100" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselLp w-100" data-slide-to="1"></li>
+      <li data-target="#carouselLp w-100" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid" src="img/bb.png" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="img/bc.png" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="img/bn.png" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselLp" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselLp" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+   <!-- /Carosel -->
 
-                    <a href="https://www.linkedin.com/in/carolina-guida/" target="_blank" class="p-3">
-                        <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
-                    </a>
-                </div>
-            </div>
+  
 
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>Todos os direitos reservados: Carolina Guida &copy;</p>
-                </div>
-            </div>
+   <!-- Card -->
+   
+<div class="container mt-3">
+   <div class="card">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/ABCT.jpg" width="100%" height="100%" alt="Foto de um abacate">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" id="sobre">Sobre o Abacate</h5>
+          <p class="card-text">Uma das frutas mais consumidas na gastronomia mundial, o abacate, além de delicioso -pode ser usado tanto em receitas doces como salgadas- se destaca bastante por seus poderes medicinais e benefícios à saúde. Rico em fitonutrientes, substâncias naturais da planta que funcionam como nutrientes, o alimento ajuda o organismo na prevenção de doenças cardiovasculares e, até mesmo, alguns tipos de câncer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-    </footer>
-    <!-- /Rodapé -->
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="d-flex justify-content-center mt-3 text-light" id="receitas"> Receitas </h3>
+   <div class="container mt-3">
+    <div class="card-group">
+      <div class="card p-2">
+        
+        <div class="card-body">
+          <h5 class="card-title">Guacamole</h5>
+          <p class="card-text">-1 abacate brasileiro médio<br> -1 tomate grande<br> -1 cebola <br> -1 limão grande (suco)<br>-Azeite extra virgem<br> -Sal e pimenta <br><br> Amasse o abacate com um garfo, acrescente o suco de limão, sal e azeite a gosto e misture como um purê.
+          Pique a cebola e o tomate. Acrescente os ingredientes picados ao "purê" de abacate.
+            
+            Sirva com chips, crackers, tacos, no burrito ou mesmo junto com arroz e feijão.</p>
+          
+        </div>
+      </div>
+      <div class="card p-2">
+        
+        <div class="card-body">
+          <h5 class="card-title">Mousse de chocolate</h5>
+          <p class="card-text">-1 abacate maduro <br>
+            -2 colheres de cacau em pó <br>
+            -1 pitada de canela em pó<br>
+            -4 colheres de melado de cana<br>
+            -1 colher (chá) de essência de baunilha<br><br>
+            No liquidificador, adicione o abacate, o cacau, a canela, o melado e a essência de baunilha, deixe na geladeira por 2hrs e sirva-se!
+        </p>
+        <img src="img/mousse-abacate.jpg" class="img-fluid mt-3" alt="">
+          
+        </div>
+      </div>
+      <div class="card p-2">
+        
+        <div class="card-body">
+          <h5 class="card-title">Maionese de abacate</h5>
+          <p class="card-text">-polpa de 1/2 abacate <br>
+            -1 dente de alho<br>
+            -coentro fresco a gosto<br>
+            -suco de 1 limão<br>
+            -sal a gosto<br>
+            -1/2 xícara (chá) de azeite de oliva<br><br>
+            Bater todos os ingredientes no liquidificador.
+Está pronto, receita rápida e fácil!</p>
+<img src="img/maionese-de-abacate-sem-óleo-3.jpg" class="img-fluid mt-4" alt="">
+          
+        </div>
+      </div>
+      <div class="card p-2 ">
+        
+        <div class="card-body">
+          <h5 class="card-title">Pesto de Abacate</h5>
+          <p class="card-text">-250 gr de abacate <br>
+              -1 xícara (chá) de manjericão<br>
+              -2 dentes de alho<br>
+              -1/3 xícara (chá) de castanha-do-pará<br>
+              -1 colher (chá) de sal<br>
+              -1 1/2 colheres (sopa) de suco de limão<br>
+              -3 colheres (sopa) de azeite<br><br>
+              Em um processador ou liquidificador potente, coloque o avocado ou abacate, as folhas de manjericão, os dentes de alho, as castanhas do pará, tempere com sal a gosto e bata bem. Se precisar, pare e misture.<br>Adicione aos poucos o suco de limão e o azeite, batendo sempre.<br>Seu pesto está pronto!</p>
+          
+        </div>
+      </div>
+    </div>
 
-    <script src="assets/js/script.js"></script>
+   </div> 
+   <!-- /Card -->
 
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+   <!--Vídeo-->
+   <div class="container" id="video">
+     <h3 class="d-flex justify-content-center mt-3 text-light"> Vídeos </h3>
+   </div>
+   
+   <div class="container mt-5 d-flex justify-content-center">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NY_giAsvd5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+ </div>
+<div class="container mt-5 d-flex justify-content-center"> 
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6thFDkHy9es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+   <!--/Vídeo-->
+<!-- formulario -->
+<h3 class="d-flex justify-content-center mt-5 text-light" id="campoFormulario"> Fale conosco! </h3>
+<form class="container mb-5 mt-5 p-1" id="campoFormulario">
+    <div class="form-group text-light">
+      <label for="FormControl">Endereço de email</label>
+      <input type="email" class="form-control" id="FormControl" placeholder="nome@exemplo.com">
+    </div>
+    <div class="form-group text-light">
+      <label for="FormControlSelect">Gostaria de compartilhar algo conosco?</label>
+      <select class="form-control" id="FormControlSelect">
+        <option>Escolha uma opção</option>
+        <option>Opinião sobre a plataforma</option>
+        <option>Feedback de receitas</option>
+        <option>Recomendar uma receita</option>
+        <option>Elogios</option>
+        <option>Observações</option>
+      </select>
+    </div>
+    <div class="form-group text-light">
+      <label for="exampleFormControlTextarea1">Fique a vontade! =]</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <button type="submit" class="btn btn-dark mt-2">Enviar</button>
+    </div>
+  </form>
+    <!-- /formulario -->
+
+     <!--Rodapé-->
+     <hr>
+     <footer>
+ 
+       <div class="row mb-2">
+         <div class="col-md-12 d-flex justify-content-center">      
+             <a href="https://www.linkedin.com/in/maria-nazar%C3%A9-195479206/" target="_blank" class="p-2">
+               <img class="tm-social" src="img/logotipo-do-linkedin.png" alt="Logo do Linkedin">
+             </a>
+       
+             <a href="https://github.com/MariaNazar" target="_blank" class="p-2">
+               <img class="tm-social" src="img/placa-do-github.png" alt="Logo do Intagram">
+             </a>
+         </div>
+       </div>
+ 
+       <div class="row">
+         <div class="col-md-12">
+           <p class="text-center">
+             Todos os direitos reservados: Maria Nazaré &copy
+           </p>
+         </div>
+        </div>       
+     </footer>
+     <!--/Rodapé-->
+ 
+
+
+
+
+
+
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
